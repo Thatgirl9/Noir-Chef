@@ -30,9 +30,11 @@
 
         <!-- Links -->
         <div
-          class="h-0 overflow-hidden transition-all lg:h-auto links bg-black lg:bg-transparent lg:justify-between lg:gap-5 lg:flex lg:w-3/5 font-smText lg:items-center"
+          class="h-0 overflow-hidden transition-all lg:h-auto links bg-headerBg lg:bg-transparent lg:justify-between lg:gap-5 lg:flex lg:w-3/5 font-smText lg:items-center font-normal text-textColor border-2 border-red-500 flex flex-col lg:flex-row gap-5 w-1/2 p-3 lg:p-0 absolute top-[6.5em] right-0 rounded-md lg:rounded-none lg:relative lg:top-0"
         >
-          <ul class="text-white lg:flex gap-6 font-normal">
+          <ul
+            class="lg:flex lg:flex-row gap-3 lg:gap-5 flex flex-col justify-center items-center lg:justify-normal lg:items-normal lg:border-none"
+          >
             <li>
               <a href="#">Menu</a>
             </li>
@@ -51,9 +53,7 @@
           </ul>
 
           <!-- sign in  button -->
-          <button class="text-white bg-buttonColor px-3 rounded-md">
-            Sign In
-          </button>
+          <button class="bg-buttonColor px-3 rounded-md w-">Sign In</button>
         </div>
       </nav>
     </header>
@@ -160,6 +160,6 @@ export default {
 
 /* nav toggle */
 .show-links {
-  height: 10rem;
+  height: 16rem;
 }
 </style>
