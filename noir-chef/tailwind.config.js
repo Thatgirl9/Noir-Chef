@@ -10,6 +10,7 @@ export default {
         headerBg: "#272727",
         headerText: "#FFC164",
         textColor: "#FFF",
+        buttonColor: "#FF5C5C",
       },
 
       fontFamily: {
