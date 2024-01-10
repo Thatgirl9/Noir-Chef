@@ -5,7 +5,19 @@ export default {
     "./src/**/*.{js,vue}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        headerBg: "#272727",
+        headerText: "#FFC164",
+        textColor: "#FFF",
+      },
+
+      fontFamily: {
+        bigText: "DM Sans, sans-serif",
+        header: "DM Serif Display, serif",
+        smText: "Inter, sans-serif",
+      }
+    },
   },
   plugins: [],
 }
