@@ -30,7 +30,7 @@
 
         <!-- Links -->
         <div
-          class="h-0 overflow-hidden transition-all lg:h-auto links bg-headerBg lg:bg-transparent lg:justify-between lg:gap-5 lg:flex lg:w-3/5 font-smText lg:items-center font-normal text-textColor border-2 border-red-500 flex flex-col lg:flex-row gap-5 w-1/2 p-3 lg:p-0 absolute top-[6.5em] right-0 rounded-md lg:rounded-none lg:relative lg:top-0"
+          class="h-0 overflow-hidden transition-all lg:h-auto links bg-headerBg lg:bg-transparent lg:justify-between lg:gap-5 lg:flex lg:w-3/5 font-smText lg:items-center font-normal text-textColor flex flex-col lg:flex-row gap-5 w-1/2 lg:p-0 absolute top-[6.5em] right-2 rounded-md lg:rounded-none lg:relative lg:top-0 lg:right-0 justify-center items-center"
         >
           <ul
             class="lg:flex lg:flex-row gap-3 lg:gap-5 flex flex-col justify-center items-center lg:justify-normal lg:items-normal lg:border-none"
@@ -53,7 +53,11 @@
           </ul>
 
           <!-- sign in  button -->
-          <button class="bg-buttonColor px-3 rounded-md w-">Sign In</button>
+          <button
+            class="bg-buttonColor px-3 rounded-md w-[6em] flex justify-center items-center lg:block"
+          >
+            Sign In
+          </button>
         </div>
       </nav>
     </header>
