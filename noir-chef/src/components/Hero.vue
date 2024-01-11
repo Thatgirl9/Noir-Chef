@@ -1,11 +1,11 @@
 <template>
-  <div class="absolute w-full h-full">
+  <div class="absolute w-full h-full pointer-events-auto">
     <header class="bg-headerBg w-full max-h-[14vh] px-2 md:px-10 pt-4 z-50">
       <!-- second header -->
       <nav class="lg:flex lg:justify-between lg:items-center lg:p-3">
         <!-- image and hamburger -->
         <div class="img-ham flex items-center justify-between p-4 lg:p-0">
-          <div class="relative top-0 left-0">
+          <div class="relative top-0 left-0 cursor-pointer">
             <img
               src="../assets/Ellipse 4 (2).png"
               class="w-[110px] h-[94px] relative top-0 left-0"
@@ -30,7 +30,7 @@
 
         <!-- Links -->
         <div
-          class="h-0 overflow-hidden transition-all lg:h-auto links bg-headerBg lg:bg-transparent lg:justify-between lg:gap-5 lg:flex lg:w-3/5 font-smText lg:items-center font-normal text-textColor flex flex-col lg:flex-row gap-5 w-1/2 lg:p-0 absolute top-[6.5em] right-2 rounded-md lg:rounded-none lg:relative lg:top-0 lg:right-0 justify-center items-center"
+          class="h-0 overflow-hidden transition-all lg:h-auto links bg-headerBg lg:bg-transparent lg:justify-between lg:gap-5 lg:flex lg:w-3/5 font-smText lg:items-center font-normal text-textColor flex flex-col lg:flex-row gap-5 w-1/2 lg:p-0 absolute top-[6.5em] right-2 rounded-md lg:rounded-none lg:relative lg:top-0 lg:right-0 justify-center items-center lg:border-none"
         >
           <ul
             class="lg:flex lg:flex-row gap-3 lg:gap-5 flex flex-col justify-center items-center lg:justify-normal lg:items-normal lg:border-none"
@@ -54,7 +54,7 @@
 
           <!-- sign in  button -->
           <button
-            class="bg-buttonColor px-3 rounded-md w-[6em] flex justify-center items-center lg:block"
+            class="bg-buttonColor px-3 rounded-md w-[6em] flex justify-center items-center lg:block hover:bg-transparent hover:border-2 transition-all hover:border-buttonColor"
           >
             Sign In
           </button>
@@ -62,11 +62,29 @@
       </nav>
     </header>
 
-    <div class="overlay -z-20"></div>
-    <div class="hero-img -z-20">
-      <h1 class="font-bigText text-red-500">Hero Page</h1>
-      <p class="font-smText">Wassup</p>
-      <h1 class="font-header">Header</h1>
+    <div class="overlay -z-20 pointer-events-auto cursor-pointer"></div>
+    <div class="hero-img -z-20 pointer-events-auto">
+      <div
+        class="flex justify-center items-center flex-col pt-20 text-center gap-10 sm:gap-14 pointer-events-auto"
+      >
+        <h1 class="font-header text-headerText text-5xl font-semibold">
+          Taste the rich flavour of high quality meals
+        </h1>
+        <p
+          class="font-bigText font-normal text-2xl sm:text-3xl text-textColor w-[90%] sm:max-w-none"
+        >
+          We only use the five star quality for our
+          <br class="hidden sm:block" />
+          menu, come and get the richness in
+          <br class="hidden sm:block" />
+          every meals we serve.
+        </p>
+        <button
+          class="text-textColor menu-btn px-16 py-1 rounded-lg hover:cursor-pointer border-2 font-smText border-headerText text-2xl text-center transition-all hover:bg-buttonColor pointer-events-auto"
+        >
+          <a href="#">Go to Menu</a>
+        </button>
+      </div>
     </div>
   </div>
 </template>
@@ -95,13 +113,21 @@ export default {
 
 <style>
 .hero-img {
-  height: 120vh;
+  height: 110vh;
   width: 100%;
   background-image: url("../assets/Rectangle 2.png");
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
   /* top: 1em; */
+  pointer-events: auto;
+}
+
+@media screen and (min-width: 1024px) {
+  .hero-img {
+    background-size: contain;
+    /* background-position: center; */
+  }
 }
 
 .overlay {
@@ -109,9 +135,9 @@ export default {
   /* top: 5em; */
   left: 0;
   width: 100%;
-  height: 120vh;
+  height: 110vh;
   background-color: rgba(0, 0, 0, 0.7);
-  pointer-events: none;
+  pointer-events: auto;
 }
 
 /* Hamburger */
@@ -165,5 +191,7 @@ export default {
 /* nav toggle */
 .show-links {
   height: 16rem;
+  border: 1px solid #ff5c5c;
+  /* stroke: 6px solid #ff5c5c; */
 }
 </style>
