@@ -1,7 +1,7 @@
 <template>
-  <div class="h-screen menu-div bg-foundation w-full">
+  <div class="menu-div bg-foundation w-full">
     <div
-      class="pt-28 text-center flex flex-col justify-center items-center gap-11 relative"
+      class="pt-28 text-center flex flex-col justify-center items-center gap-11 relative mb-[9em]"
     >
       <h1 class="text-headerText font-header text-4xl font-semibold">
         Today's Special
@@ -29,18 +29,39 @@
     </div>
 
     <!-- Menu using json -->
-    <!-- <img src="../assets/Rectangle 5.png" /> -->
+    <div
+      class="flex justify-center item-center flex-col flex-wrap lg:flex-row gap-5"
+    >
+      <div v-for="dish in menu" :key="dish.id" class="text-textColor">
+        <img :src="dish.menuimg" class="w-[17em] h-[15em]" />
+        <h2>{{ dish.title }}</h2>
+        <p class="desc-p">{{ dish.desc }}</p>
+        <p class="flex">
+          <img :src="dish.starimgyelow" class="w-[1.4em] h-[1.4em]" />
+          <img :src="dish.starimgyelow" class="w-[1.4em] h-[1.4em]" />
+          <img :src="dish.starimgyelow" class="w-[1.4em] h-[1.4em]" />
+          <img :src="dish.starimgyelow" class="w-[1.4em] h-[1.4em]" />
+          <img :src="dish.starimgyelow" class="w-[1.4em] h-[1.4em]" />
+        </p>
+      </div>
+    </div>
   </div>
 </template>
 
 <script>
+import menuJson from "../json/menu.json";
 export default {
   name: "Menu",
+  data() {
+    return {
+      menu: menuJson,
+    };
+  },
 };
 </script>
 
-<style>
-/* .menu-div {
-  background: linear-gradient(180deg, #212121 0%, #000 100%);
-} */
+<style scoped>
+.desc-p {
+  max-width: 28ch;
+}
 </style>
