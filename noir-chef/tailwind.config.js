@@ -8,6 +8,7 @@ export default {
     extend: {
       colors: {
         headerBg: "#272727",
+        foundation: "#000000",
         headerText: "#FFC164",
         textColor: "#FFF",
         buttonColor: "#FF5C5C",

@@ -4,8 +4,11 @@ import Menu from "./components/Menu.vue";
 </script>
 
 <template>
-  <Menu />
-  <Hero />
+  <div>
+    <Hero />
+    <Menu />
+    <!-- <Hero /> -->
+  </div>
 </template>
 
-<style scoped></style>
+<style></style>

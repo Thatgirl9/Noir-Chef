@@ -1,5 +1,5 @@
 <template>
-  <div class="absolute w-full h-full pointer-events-auto">
+  <div class="w-full h-full pointer-events-auto">
     <header class="bg-headerBg w-full max-h-[14vh] px-2 md:px-10 pt-4 z-50">
       <!-- second header -->
       <nav class="lg:flex lg:justify-between lg:items-center lg:p-3">
@@ -113,7 +113,7 @@ export default {
 
 <style>
 .hero-img {
-  height: 110vh;
+  height: 96vh;
   width: 100%;
   background-image: url("../assets/Rectangle 2.png");
   background-size: cover;
@@ -121,12 +121,13 @@ export default {
   position: relative;
   /* top: 1em; */
   pointer-events: auto;
+  background-position: center;
 }
 
 @media screen and (min-width: 1024px) {
   .hero-img {
-    background-size: contain;
-    /* background-position: center; */
+    background-size: cover;
+    background-position: none;
   }
 }
 
@@ -135,7 +136,7 @@ export default {
   /* top: 5em; */
   left: 0;
   width: 100%;
-  height: 110vh;
+  height: 96vh;
   background-color: rgba(0, 0, 0, 0.7);
   pointer-events: auto;
 }
