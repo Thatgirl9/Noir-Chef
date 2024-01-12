@@ -12,6 +12,7 @@ export default {
         headerText: "#FFC164",
         textColor: "#FFF",
         buttonColor: "#FF5C5C",
+        menuBtnColor: "#ff9f0f",
       },
 
       fontFamily: {

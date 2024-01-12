@@ -35,10 +35,15 @@
       <div
         v-for="dish in menu"
         :key="dish.id"
-        class="text-textColor border-2 flex flex-col justify-center items-center"
+        class="text-textColor flex flex-col justify-center items-center"
       >
-        <div class="w-[67%] md:w-[100%] flex flex-col gap-3">
-          <img :src="dish.menuimg" class="w-[15em] h-[13em]" />
+        <div
+          class="w-[67%] md:w-[100%] flex flex-col gap-3 border hover:border hover:border-menuBtnColor hover:cursor-pointer hover:rounded-2xl p-1 transition-all"
+        >
+          <img
+            :src="dish.menuimg"
+            class="w-[15em] h-[13em] flex justify-center items-center"
+          />
           <h2 class="text-left">{{ dish.title }}</h2>
           <p class="desc-p">{{ dish.desc }}</p>
           <p class="flex gap-1">
