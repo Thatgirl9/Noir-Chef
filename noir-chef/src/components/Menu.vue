@@ -30,19 +30,28 @@
 
     <!-- Menu using json -->
     <div
-      class="flex justify-center item-center flex-col flex-wrap lg:flex-row gap-5"
+      class="flex justify-center item-center flex-col flex-wrap lg:flex-row gap-7"
     >
-      <div v-for="dish in menu" :key="dish.id" class="text-textColor">
-        <img :src="dish.menuimg" class="w-[17em] h-[15em]" />
-        <h2>{{ dish.title }}</h2>
-        <p class="desc-p">{{ dish.desc }}</p>
-        <p class="flex">
-          <img :src="dish.starimgyelow" class="w-[1.4em] h-[1.4em]" />
-          <img :src="dish.starimgyelow" class="w-[1.4em] h-[1.4em]" />
-          <img :src="dish.starimgyelow" class="w-[1.4em] h-[1.4em]" />
-          <img :src="dish.starimgyelow" class="w-[1.4em] h-[1.4em]" />
-          <img :src="dish.starimgyelow" class="w-[1.4em] h-[1.4em]" />
-        </p>
+      <div
+        v-for="dish in menu"
+        :key="dish.id"
+        class="text-textColor border-2 flex flex-col justify-center items-center"
+      >
+        <div class="w-[67%] md:w-[100%] flex flex-col gap-3">
+          <img :src="dish.menuimg" class="w-[15em] h-[13em]" />
+          <h2 class="text-left">{{ dish.title }}</h2>
+          <p class="desc-p">{{ dish.desc }}</p>
+          <p class="flex gap-1">
+            <img :src="dish.starimgyelow" class="w-[1.5em] h-[1.4em]" />
+            <img :src="dish.starimgyelow" class="w-[1.5em] h-[1.4em]" />
+            <img :src="dish.starimgyelow" class="w-[1.5em] h-[1.4em]" />
+            <img :src="dish.starimgyelow" class="w-[1.5em] h-[1.4em]" />
+            <img :src="dish.starimgyelow" class="w-[1.5em] h-[1.4em]" />
+          </p>
+          <button class="menu-btn w-[150px] md:w[140px] h-[30px]">
+            {{ dish.btntext }}
+          </button>
+        </div>
       </div>
     </div>
   </div>
@@ -60,8 +69,15 @@ export default {
 };
 </script>
 
-<style scoped>
+<style>
 .desc-p {
   max-width: 28ch;
+}
+
+.menu-btn {
+  border-radius: 18px;
+  background: #ff9f0f;
+  box-shadow: 0px 4px 4px 0px #ff9f0f;
+  border: 1px solid #ff9f0f;
 }
 </style>
