@@ -58,6 +58,8 @@
           </button>
         </div>
       </div>
+
+      <div class="mt-10 menu-bg"></div>
     </div>
   </div>
 </template>
@@ -84,5 +86,11 @@ export default {
   background: #ff9f0f;
   box-shadow: 0px 4px 4px 0px #ff9f0f;
   border: 1px solid #ff9f0f;
+}
+
+.menu-bg {
+  background-image: url(../assets/Rectangle\ 13.png);
+  background-size: cover;
+  height: "30vh";
 }
 </style>
