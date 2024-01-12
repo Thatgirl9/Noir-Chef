@@ -38,7 +38,7 @@
         class="text-textColor flex flex-col justify-center items-center"
       >
         <div
-          class="w-[67%] md:w-[100%] flex flex-col gap-3 border hover:border hover:border-menuBtnColor hover:cursor-pointer hover:rounded-2xl p-1 transition-all"
+          class="w-[67%] md:w-[100%] flex flex-col gap-3 hover:border hover:border-menuBtnColor hover:cursor-pointer hover:rounded-2xl p-1 pb-3 hover:shadow-lg hover:shadow-menuBtnColor"
         >
           <img
             :src="dish.menuimg"
