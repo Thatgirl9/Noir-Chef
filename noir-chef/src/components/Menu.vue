@@ -38,7 +38,7 @@
         class="text-textColor flex flex-col justify-center items-center"
       >
         <div
-          class="w-[67%] md:w-[100%] flex flex-col gap-3 hover:border hover:border-menuBtnColor hover:cursor-pointer hover:rounded-2xl p-1 pb-3 hover:shadow-lg hover:shadow-menuBtnColor"
+          class="w-[67%] md:w-[100%] flex flex-col gap-3 hover:border hover:border-menuBtnColor hover:cursor-pointer hover:rounded-2xl p-1 pb-5 hover:shadow-lg hover:shadow-menuBtnColor"
         >
           <img
             :src="dish.menuimg"
@@ -53,14 +53,16 @@
             <img :src="dish.starimgyelow" class="w-[1.5em] h-[1.4em]" />
             <img :src="dish.starimgyelow" class="w-[1.5em] h-[1.4em]" />
           </p>
-          <button class="menu-btn w-[150px] md:w[140px] h-[30px]">
+          <button
+            class="menu-btn w-[150px] md:w[140px] h-[30px] text-foundation hover:bg-transparent hover:text-menuBtnColor"
+          >
             {{ dish.btntext }}
           </button>
         </div>
       </div>
     </div>
 
-    <div class="mt-10 menu-bg h-[40vh] border-2">
+    <div class="mt-10 menu-bg">
       <img src="../assets/Rectangle 13.png" />
     </div>
   </div>

@@ -36,19 +36,19 @@
           class="lg:flex lg:flex-row gap-3 lg:gap-5 flex flex-col justify-center items-center lg:justify-normal lg:items-normal lg:border-none"
         >
           <li>
-            <a href="#">Menu</a>
+            <a href="#" class="hover:text-menuBtnColor">Menu</a>
           </li>
           <li>
-            <a href="#">News</a>
+            <a href="#" class="hover:text-menuBtnColor">News</a>
           </li>
           <li>
-            <a href="#">Fine Dining</a>
+            <a href="#" class="hover:text-menuBtnColor">Fine Dining</a>
           </li>
           <li>
-            <a href="#">About Us</a>
+            <a href="#" class="hover:text-menuBtnColor">About Us</a>
           </li>
           <li>
-            <a href="#">Contact</a>
+            <a href="#" class="hover:text-menuBtnColor">Contact</a>
           </li>
         </ul>
 
