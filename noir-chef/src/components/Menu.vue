@@ -30,12 +30,12 @@
 
     <!-- Menu using json -->
     <div
-      class="flex justify-center item-center flex-col flex-wrap lg:flex-row gap-7 pb-20"
+      class="flex justify-center item-center flex-col flex-wrap md:flex-row gap-8 pb-20"
     >
       <div
         v-for="dish in menu"
         :key="dish.id"
-        class="text-textColor flex flex-col justify-center items-center"
+        class="text-textColor flex flex-col justify-center items-center sm:flex-row sm:flex-wrap"
       >
         <div
           class="w-[67%] md:w-[100%] flex flex-col gap-3 hover:border hover:border-menuBtnColor hover:cursor-pointer hover:rounded-2xl p-1 pb-5 hover:shadow-lg hover:shadow-menuBtnColor"
