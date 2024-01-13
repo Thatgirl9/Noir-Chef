@@ -19,6 +19,7 @@ export default {
         bigText: "DM Sans, sans-serif",
         header: "DM Serif Display, serif",
         smText: "Inter, sans-serif",
+        priceText: "Cinzel, serif",
       }
     },
   },

@@ -40,10 +40,13 @@
         <div
           class="w-[67%] md:w-[100%] flex flex-col gap-3 hover:border hover:border-menuBtnColor hover:cursor-pointer hover:rounded-2xl p-1 pb-5 hover:shadow-lg hover:shadow-menuBtnColor"
         >
-          <img
-            :src="dish.menuimg"
-            class="w-[15em] h-[13em] flex justify-center items-center"
-          />
+          <div class="flex justify-center">
+            <img
+              :src="dish.menuimg"
+              class="w-[15em] h-[13em] flex justify-center items-center"
+            />
+          </div>
+
           <h2 class="text-left">{{ dish.title }}</h2>
           <p class="desc-p">{{ dish.desc }}</p>
           <p class="flex gap-1">
