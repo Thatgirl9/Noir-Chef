@@ -30,7 +30,7 @@
 
     <!-- Menu using json -->
     <div
-      class="flex justify-center item-center flex-col flex-wrap lg:flex-row gap-7"
+      class="flex justify-center item-center flex-col flex-wrap lg:flex-row gap-7 pb-20"
     >
       <div
         v-for="dish in menu"
@@ -58,8 +58,10 @@
           </button>
         </div>
       </div>
+    </div>
 
-      <div class="mt-10 menu-bg"></div>
+    <div class="mt-10 menu-bg h-[40vh] border-2">
+      <img src="../assets/Rectangle 13.png" />
     </div>
   </div>
 </template>
@@ -71,6 +73,7 @@ export default {
   data() {
     return {
       menu: menuJson,
+      imgMenu: "../assets/Rectangle 13.png",
     };
   },
 };
@@ -86,11 +89,5 @@ export default {
   background: #ff9f0f;
   box-shadow: 0px 4px 4px 0px #ff9f0f;
   border: 1px solid #ff9f0f;
-}
-
-.menu-bg {
-  background-image: url(../assets/Rectangle\ 13.png);
-  background-size: cover;
-  height: "30vh";
 }
 </style>
