@@ -58,7 +58,9 @@
     <div class="flex justify-center items-center">
       <div class="mt-20 specialities-bg flex justify-center">
         <!-- Specialities -->
-        <div class="w-[90%] lg:w[70%] flex flex-col gap-[6em] lg:gap-[10em]">
+        <div
+          class="w-[90%] lg:w[70%] flex flex-col gap-[6em] lg:gap-[10em] md:flex-row md:flex-wrap lg:flex-col md:justify-center"
+        >
           <!-- 1 -->
           <div
             class="flex flex-col lg:flex-row justify-center gap-[2em] lg:gap-[10em] mt-[6em] hover:border-2 hover:border-black hover:rounded-lg hover:shadow-2xl hover:shadow-gray-900 pb-5 lg:hover:shadow-none lg:hover:rounded-none lg:border-none"
