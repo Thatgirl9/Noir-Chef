@@ -1,7 +1,7 @@
 <template>
   <div class="bg-foundation">
     <div
-      class="pt-[9em] text-center flex flex-col justify-center items-center gap-[2em]"
+      class="pt-[9em] text-center flex flex-col justify-center items-center gap-[2em] mb-[8em]"
     >
       <h1 class="text-headerText font-header text-4xl font-semibold">
         Dining Events
@@ -28,6 +28,29 @@
         >
           Corporate Events
         </button>
+      </div>
+    </div>
+
+    <div class="flex justify-center items-center">
+      <div class="flex justify-center items-center w-[90%] lg:w-[70%]">
+        <div
+          class="border-2 border-red-600 flex flex-col lg:flex-row justify-end items-center gap-[2em]"
+        >
+          <div class="text-textColor">
+            <h1>Fine Dining</h1>
+            <p>
+              Bottle of Champagne<br />
+              Fine Sushi Tower For 2+<br />
+              Dessert
+            </p>
+          </div>
+
+          <div
+            class="border-2 flex justify-center lg:justify-end items-center w-[65%]"
+          >
+            <img src="../assets/Rectangle 17.png" class="w-[full] h-[full]" />
+          </div>
+        </div>
       </div>
     </div>
     <h1 class="text-textColor">Dining Event</h1>
