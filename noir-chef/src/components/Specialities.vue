@@ -177,7 +177,7 @@ export default {
   width: 100%;
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 768px) {
   .specialities-bg {
     background-size: cover;
     background-position: none;
