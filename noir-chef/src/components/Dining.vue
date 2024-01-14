@@ -31,10 +31,10 @@
       </div>
     </div>
 
-    <div class="flex justify-center items-center">
+    <!-- <div class="flex justify-center items-center">
       <div class="flex justify-center items-center w-[90%] lg:w-[70%]">
         <div
-          class="border-2 border-red-600 flex flex-col lg:flex-row justify-end items-center gap-[2em]"
+          class="flex flex-col lg:flex-row justify-end items-start gap-[8em] gradient"
         >
           <div class="text-textColor">
             <h1>Fine Dining</h1>
@@ -45,14 +45,13 @@
             </p>
           </div>
 
-          <div
-            class="border-2 flex justify-center lg:justify-end items-center w-[65%]"
-          >
+          <div class="flex justify-center lg:justify-end items-end w-[65%]">
+            <p class="text-headerText">$500</p>
             <img src="../assets/Rectangle 17.png" class="w-[full] h-[full]" />
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
     <h1 class="text-textColor">Dining Event</h1>
   </div>
 </template>
@@ -63,4 +62,8 @@ export default {
 };
 </script>
 
-<style></style>
+<style>
+.gradient {
+  background: linear-gradient(90deg, #000 55%, rgba(0, 0, 0, 0) 100%);
+}
+</style>

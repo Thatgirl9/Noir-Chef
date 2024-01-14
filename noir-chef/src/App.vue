@@ -3,6 +3,7 @@ import Dining from "./components/Dining.vue";
 import Hero from "./components/Hero.vue";
 import Menu from "./components/Menu.vue";
 import Specialities from "./components/Specialities.vue";
+import OurStory from "./components/OurStory.vue";
 </script>
 
 <template>
@@ -11,6 +12,7 @@ import Specialities from "./components/Specialities.vue";
     <Menu />
     <Specialities />
     <Dining />
+    <OurStory />
     <!-- <Hero /> -->
   </div>
 </template>
