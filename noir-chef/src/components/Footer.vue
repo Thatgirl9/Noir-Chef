@@ -1,12 +1,14 @@
 <template>
   <div class="bg-foundation pt-[2em] lg:pt-[3em]">
     <div class="footer-img h-[25em]">
-      <h1
-        class="text-textColor text-4xl font-header font-bold text-center pt-16"
-      >
-        We are always ready to surprise <br class="hidden sm:block" />
-        you with new flavours
-      </h1>
+      <div class="flex justify-center items-center text-center">
+        <h1
+          class="text-textColor text-4xl font-header font-bold text-center pt-16 w-[90%] sm:max-w-non"
+        >
+          We are always ready to surprise <br class="hidden sm:block" />
+          you with new flavours
+        </h1>
+      </div>
 
       <div
         class="lg:pl-20 pl-10 lg:pt-[4.5em] pt-[3em] text-textColor flex flex-col gap-6"
