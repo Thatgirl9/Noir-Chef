@@ -24,7 +24,7 @@
           <img src="../assets/Rectangle 23.png" class="sm:h-[30em] h-[19em]" />
         </div>
         <div
-          class="text-textColor flex gap-[0.8em] flex-col items-center justify-center"
+          class="text-textColor flex gap-[0.8em] flex-col items-center justify-center font-bigText text-base lg:text-xl"
         >
           <p class="w-[29ch] md:w-[90%] lg:w-[29ch]">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
@@ -38,7 +38,7 @@
             molestie, vehicula nisi quis, finibus leo.
           </p>
           <div class="mt-[1em] w-full text-right">
-            <a>More...</a>
+            <a class="text-headerText" href="#">More...</a>
           </div>
         </div>
       </div>
