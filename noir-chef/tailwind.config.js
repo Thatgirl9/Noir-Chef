@@ -20,6 +20,10 @@ export default {
         header: "DM Serif Display, serif",
         smText: "Inter, sans-serif",
         priceText: "Cinzel, serif",
+      },
+
+      backgroundImage: {
+        'footerBg': "url('../assets/Rectangle\ 24.png')",
       }
     },
   },
