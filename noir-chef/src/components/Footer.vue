@@ -48,6 +48,5 @@ export default {
   background-position: center;
   width: 100%;
   background-size: cover;
-  /* height: 20em; */
 }
 </style>

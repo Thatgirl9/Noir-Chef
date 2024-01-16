@@ -1,6 +1,7 @@
 <template>
-  <!-- <div class="w-full h-full pointer-events-auto"> -->
-  <header class="bg-headerBg w-full max-h-[14vh] px-2 pt-4 md:px-10 z-50">
+  <header
+    class="bg-headerBg w-full max-h-[14vh] lg:max-h-[14vh] md:max-h-[10vh] px-2 pt-4 md:px-10 z-50"
+  >
     <!-- second header -->
     <nav class="lg:flex lg:justify-between lg:items-center lg:p-3">
       <!-- image and hamburger -->
@@ -86,7 +87,6 @@
       </button>
     </div>
   </div>
-  <!-- </div> -->
 </template>
 
 <script>
