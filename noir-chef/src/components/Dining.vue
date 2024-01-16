@@ -1,7 +1,7 @@
 <template>
   <div class="bg-foundation">
     <div
-      class="pt-[9em] text-center flex flex-col justify-center items-center gap-[2em] mb-[8em]"
+      class="pt-[9em] text-center flex flex-col justify-center items-center gap-[2em] mb-[8em] lg:mb-[10em]"
     >
       <h1 class="text-headerText font-header text-4xl font-semibold">
         Dining Events
@@ -28,6 +28,32 @@
         >
           Corporate Events
         </button>
+      </div>
+    </div>
+
+    <div class="flex flex-col justify-center items-center gap-5">
+      <!-- 1 -->
+      <div
+        class="flex justify-center lg:items-start lg:gap-[4em] lg:flex-row flex-col items-center"
+      >
+        <div class="text-textColor flex flex-col gap-[1em]">
+          <h1 class="font-header text-4xl font-semibold">Fine Dining</h1>
+          <p class="font-bigText">
+            Bottle of Champagne<br />
+            Fine Sushi Tower For 2+<br />
+            Dessert
+          </p>
+        </div>
+
+        <div
+          class="lg:w-[65%] w-[90%] flex items-end gap-2 lg:flex-row flex-col"
+        >
+          <p class="text-headerText font-header text-4xl font-semibold">$500</p>
+          <img
+            src="../assets/Rectangle 17.png"
+            class="w-[full] h-[full] gradient"
+          />
+        </div>
       </div>
     </div>
 
@@ -62,8 +88,4 @@ export default {
 };
 </script>
 
-<style>
-.gradient {
-  background: linear-gradient(90deg, #000 55%, rgba(0, 0, 0, 0) 100%);
-}
-</style>
+<style></style>

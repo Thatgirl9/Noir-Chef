@@ -119,6 +119,7 @@ export default {
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
+  /* background-color: lightgray; */
   /* top: 1em; */
   pointer-events: auto;
   background-position: center;

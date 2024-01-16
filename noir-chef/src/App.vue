@@ -8,7 +8,7 @@ import Footer from "./components/Footer.vue";
 </script>
 
 <template>
-  <div class="bg-foundation">
+  <div>
     <Hero />
     <Menu />
     <Specialities />
