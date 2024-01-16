@@ -72,7 +72,7 @@
 </template>
 
 <script>
-import menuJson from "../json/menu.json";
+import menuJson from "../../public/menu.json";
 export default {
   name: "Menu",
   data() {
