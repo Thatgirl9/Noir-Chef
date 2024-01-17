@@ -3,7 +3,7 @@
     class="bg-headerBg w-full max-h-[14vh] lg:max-h-[14vh] md:max-h-[10vh] px-2 pt-4 md:px-10 z-50"
   >
     <!-- second header -->
-    <nav class="lg:flex lg:justify-between lg:items-center lg:p-3">
+    <nav class="lg:flex lg:justify-between lg:items-start lg:p-3">
       <!-- image and hamburger -->
       <div class="img-ham flex items-center justify-between p-4 lg:p-0">
         <div class="relative top-0 left-0 cursor-pointer">
@@ -31,7 +31,7 @@
 
       <!-- Links -->
       <div
-        class="h-0 overflow-hidden transition-all lg:h-auto links bg-headerBg lg:bg-transparent lg:justify-between lg:gap-5 lg:flex lg:w-3/5 font-smText lg:items-center font-normal text-textColor flex flex-col lg:flex-row gap-5 w-1/2 lg:p-0 absolute top-[6.5em] right-2 rounded-md lg:rounded-none lg:relative lg:top-0 lg:right-0 justify-center items-center lg:border-none"
+        class="h-0 overflow-hidden transition-all lg:h-auto links bg-headerBg lg:bg-transparent lg:justify-between lg:gap-5 lg:flex lg:w-3/5 font-smText lg:items-center font-normal text-textColor flex flex-col lg:flex-row gap-5 w-1/2 lg:p-0 absolute top-[6.5em] right-2 rounded-md lg:rounded-none lg:relative lg:top-0 lg:right-0 justify-center items-center lg:border-none lg:mt-[1em]"
       >
         <ul
           class="lg:flex lg:flex-row gap-3 lg:gap-5 flex flex-col justify-center items-center lg:justify-normal lg:items-normal lg:border-none"

@@ -18,13 +18,13 @@
         src="../assets/Vector 2 (1).png"
         width="200px"
         height="200px"
-        class="absolute lg:top-[8em] lg:left-[9em] top-[1em] left-0 lg:w-[200px] lg:h-[200px] w-[90px] h-[90px]"
+        class="absolute lg:top-[8em] lg:left-[9em] top-[1em] left-0 lg:w-[200px] lg:h-[200px] w-[90px] h-[90px] animate__animated animate__headShake animate__fast"
       />
       <img
         src="../assets//Vector 1.png"
         width="200px"
         height="200px"
-        class="absolute lg:right-[10em] lg:bottom-0 hidden lg:block"
+        class="absolute lg:right-[10em] lg:bottom-0 hidden lg:block animate__animated animate__headShake animate__fast"
       />
     </div>
 
@@ -177,6 +177,7 @@
 
 <script>
 // import menuJson from "../../public/menu.json";
+import "animate.css";
 export default {
   name: "Menu",
   data() {
@@ -198,5 +199,9 @@ export default {
   background: #ff9f0f;
   box-shadow: 0px 4px 4px 0px #ff9f0f;
   border: 1px solid #ff9f0f;
+}
+
+.animate__animated.animate__headShake {
+  --animate-duration: 9s;
 }
 </style>
