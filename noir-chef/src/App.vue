@@ -15,7 +15,6 @@ import Footer from "./components/Footer.vue";
     <Dining />
     <OurStory />
     <Footer />
-    <!-- <Hero /> -->
   </div>
 </template>
 

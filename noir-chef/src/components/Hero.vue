@@ -119,11 +119,8 @@ export default {
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
-  /* background-color: lightgray; */
-  /* top: 1em; */
   pointer-events: auto;
   background-position: center;
-  /* background-blend-mode: color-dodge; */
 }
 
 @media screen and (min-width: 1024px) {
@@ -194,6 +191,5 @@ export default {
 .show-links {
   height: 16rem;
   border: 1px solid #ff5c5c;
-  /* stroke: 6px solid #ff5c5c; */
 }
 </style>
