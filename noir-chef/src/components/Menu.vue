@@ -29,41 +29,45 @@
     </div>
 
     <!-- Menu using json -->
-    <div
-      class="flex justify-center item-center flex-col flex-wrap md:flex-row gap-8 pb-20"
+    <!-- <div
+      class="flex justify-center item-center flex-col flex-wrap md:flex-row gap-8 pb-20 border-2"
     >
       <div
-        v-for="dish in menu"
-        :key="dish.id"
-        class="text-textColor flex flex-col justify-center items-center sm:flex-row sm:flex-wrap"
+        class="text-textColor flex flex-col justify-center items-center sm:flex-row sm:flex-wrap border-2 border-red-800"
       >
+        
         <div
-          class="w-[67%] md:w-[100%] flex flex-col gap-3 hover:border hover:border-menuBtnColor hover:cursor-pointer hover:rounded-2xl p-1 pb-5 hover:shadow-lg hover:shadow-menuBtnColor"
+          class="w-[67%] md:w-full flex flex-col gap-3 hover:border hover:border-menuBtnColor hover:cursor-pointer hover:rounded-2xl p-1 pb-5 hover:shadow-lg hover:shadow-menuBtnColor"
         >
           <div class="flex justify-center">
             <img
-              :src="dish.menuimg"
+              src="../assets/Rectangle 5.png"
               class="w-[15em] h-[13em] flex justify-center items-center"
             />
           </div>
 
-          <h2 class="text-left">{{ dish.title }}</h2>
-          <p class="desc-p">{{ dish.desc }}</p>
-          <p class="flex gap-1">
-            <img :src="dish.starimgyelow" class="w-[1.5em] h-[1.4em]" />
-            <img :src="dish.starimgyelow" class="w-[1.5em] h-[1.4em]" />
-            <img :src="dish.starimgyelow" class="w-[1.5em] h-[1.4em]" />
-            <img :src="dish.starimgyelow" class="w-[1.5em] h-[1.4em]" />
-            <img :src="dish.starimgyelow" class="w-[1.5em] h-[1.4em]" />
-          </p>
-          <button
-            class="menu-btn w-[150px] md:w[140px] h-[30px] text-foundation hover:bg-transparent hover:text-menuBtnColor"
-          >
-            {{ dish.btntext }}
-          </button>
+          <div>
+            <h2 class="text-left">Spinach & Mushroom Quiche</h2>
+            <p class="desc-p">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ut
+              imperdiet lectus.
+            </p>
+            <p class="flex gap-1">
+              <img src="../assets/Star 1.png" class="w-[1.5em] h-[1.4em]" />
+              <img src="../assets/Star 1.png" class="w-[1.5em] h-[1.4em]" />
+              <img src="../assets/Star 1.png" class="w-[1.5em] h-[1.4em]" />
+              <img src="../assets/Star 1.png" class="w-[1.5em] h-[1.4em]" />
+              <img src="../assets/Star 1.png" class="w-[1.5em] h-[1.4em]" />
+            </p>
+            <button
+              class="menu-btn w-[150px] md:w[140px] h-[30px] text-foundation hover:bg-transparent hover:text-menuBtnColor"
+            >
+              Order Now
+            </button>
+          </div>
         </div>
       </div>
-    </div>
+    </div> -->
 
     <div class="mt-10 menu-bg">
       <img src="../assets/Rectangle 13.png" />

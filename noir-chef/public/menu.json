@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "menuimg": "src/assets/Rectangle 5.png",
+    "menuimg": "/src/assets/Rectangle 5.png",
     "title": "Spinach & Mushroom Quiche",
     "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ut imperdiet lectus.",
     "starimgyelow": "src/assets/Star 1.png",
@@ -11,7 +11,7 @@
 
   {
     "id": 2,
-    "menuimg": "src/assets/Rectangle 6.png",
+    "menuimg": "/src/assets/Rectangle 6.png",
     "title": "Sweet Potato",
     "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ut imperdiet lectus.",
     "starimgyelow": "src/assets/Star 1.png",
@@ -20,7 +20,7 @@
   },
   {
     "id": 3,
-    "menuimg": "src/assets/Rectangle 7.png",
+    "menuimg": "/src/assets/Rectangle 7.png",
     "title": "Spaghetti",
     "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ut imperdiet lectus.",
     "starimgyelow": "src/assets/Star 1.png",
