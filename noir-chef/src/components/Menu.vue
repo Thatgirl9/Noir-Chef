@@ -30,66 +30,66 @@
 
     <!-- Menu -->
     <div
-      class="flex justify-center items-center pb-20 flex-col md:flex-wrap md:flex-row gap-8"
+      class="flex md:flex-row flex-col justify-center items-center md:gap-[2em] flex-wrap gap-[3em] mb-[7em]"
     >
-      <!-- 1 -->
-      <div
-        class="hover:border hover:border-menuBtnColor hover:cursor-pointer hover:rounded-2xl p-1 pb-5 hover:shadow-lg hover:shadow-menuBtnColor"
-      >
-        <!-- IMG -->
-        <div class="flex justify-center">
-          <img
-            src="../assets/Rectangle 5.png"
-            class="w-[15em] h-[13em] flex justify-center items-center"
-          />
-        </div>
+      <div v-for="dish in menu" :key="dish.id">
+        <!-- 1 -->
+        <div
+          class="hover:border hover:border-menuBtnColor hover:cursor-pointer hover:rounded-2xl p-1 pb-5 hover:shadow-lg hover:shadow-menuBtnColor flex justify-center flex-col items-center"
+        >
+          <!-- IMG -->
+          <div class="flex justify-center">
+            <img
+              :src="dish.menuimg"
+              class="w-[15em] h-[13em] flex justify-center items-center"
+            />
+          </div>
 
-        <!-- TEXT -->
-        <div class="text-textColor flex flex-col gap-4 pt-5">
-          <h2 class="text-left">Spinach & Mushroom Quiche</h2>
-          <p class="desc-p">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ut
-            imperdiet lectus.
-          </p>
-          <p class="flex gap-1">
-            <img src="../assets/Star 1.png" class="w-[1.5em] h-[1.4em]" />
-            <img src="../assets/Star 1.png" class="w-[1.5em] h-[1.4em]" />
-            <img src="../assets/Star 1.png" class="w-[1.5em] h-[1.4em]" />
-            <img src="../assets/Star 1.png" class="w-[1.5em] h-[1.4em]" />
-            <img src="../assets/Star 1.png" class="w-[1.5em] h-[1.4em]" />
-          </p>
-          <button
-            class="menu-btn w-[150px] md:w[140px] h-[30px] text-foundation hover:bg-transparent hover:text-menuBtnColor"
-          >
-            Order Now
-          </button>
+          <!-- TEXT -->
+          <div class="text-textColor flex flex-col gap-4 pt-5">
+            <h2 class="text-left">{{ dish.title }}</h2>
+            <p class="desc-p">
+              {{ dish.desc }}
+            </p>
+            <p class="flex gap-1">
+              <img :src="dish.starimgyelow" class="w-[1.5em] h-[1.4em]" />
+              <img :src="dish.starimgyelow" class="w-[1.5em] h-[1.4em]" />
+              <img :src="dish.starimgyelow" class="w-[1.5em] h-[1.4em]" />
+              <img :src="dish.starimgyelow" class="w-[1.5em] h-[1.4em]" />
+              <img :src="dish.starimgyelow" class="w-[1.5em] h-[1.4em]" />
+            </p>
+            <button
+              class="menu-btn w-[150px] md:w[140px] h-[30px] text-foundation hover:bg-transparent hover:text-menuBtnColor"
+            >
+              {{ dish.btntext }}
+            </button>
+          </div>
         </div>
       </div>
-
       <!-- 2 -->
-      <div
+      <!-- <div
         class="hover:border hover:border-menuBtnColor hover:cursor-pointer hover:rounded-2xl p-1 pb-5 hover:shadow-lg hover:shadow-menuBtnColor"
-      >
-        <!-- IMG -->
-        <div class="flex justify-center">
+      > -->
+      <!-- IMG -->
+      <!-- <div class="flex justify-center">
           <img
             src="../assets/Rectangle 6.png"
             class="w-[15em] h-[13em] flex justify-center items-center"
           />
-        </div>
+        </div> -->
 
-        <!-- TEXT -->
-        <div class="text-textColor flex flex-col gap-4 pt-5">
+      <!-- TEXT -->
+      <!-- <div class="text-textColor flex flex-col gap-4 pt-5">
           <h2 class="text-left">Sweet Potato</h2>
           <p class="desc-p">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ut
             imperdiet lectus.
           </p>
           <p class="flex gap-1">
-            <img src="../assets/Star 1.png" class="w-[1.5em] h-[1.4em]" />
-            <img src="../assets/Star 1.png" class="w-[1.5em] h-[1.4em]" />
-            <img src="../assets/Star 1.png" class="w-[1.5em] h-[1.4em]" />
-            <img src="../assets/Star 1.png" class="w-[1.5em] h-[1.4em]" />
+            <img :src="dish.starimgyelow" class="w-[1.5em] h-[1.4em]" />
+            <img :src="dish.starimgyelow" class="w-[1.5em] h-[1.4em]" />
+            <img :src="dish.starimgyelow" class="w-[1.5em] h-[1.4em]" />
+            <img :src="dish.starimgyelow" class="w-[1.5em] h-[1.4em]" />
             <img src="../assets/Star 10.png" class="w-[1.5em] h-[1.4em]" />
           </p>
           <button
@@ -98,33 +98,33 @@
             Order Now
           </button>
         </div>
-      </div>
+      </div> -->
 
       <!-- 3 -->
-      <div
+      <!-- <div
         class="hover:border hover:border-menuBtnColor hover:cursor-pointer hover:rounded-2xl p-1 pb-5 hover:shadow-lg hover:shadow-menuBtnColor"
-      >
-        <!-- IMG -->
-        <div class="flex justify-center">
+      > -->
+      <!-- IMG -->
+      <!-- <div class="flex justify-center">
           <img
             src="../assets/Rectangle 7.png"
             class="w-[15em] h-[13em] flex justify-center items-center"
           />
-        </div>
+        </div> -->
 
-        <!-- TEXT -->
-        <div class="text-textColor flex flex-col gap-4 pt-5">
+      <!-- TEXT -->
+      <!-- <div class="text-textColor flex flex-col gap-4 pt-5">
           <h2 class="text-left">Spaghetti</h2>
           <p class="desc-p">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ut
             imperdiet lectus.
           </p>
           <p class="flex gap-1">
-            <img src="../assets/Star 1.png" class="w-[1.5em] h-[1.4em]" />
-            <img src="../assets/Star 1.png" class="w-[1.5em] h-[1.4em]" />
-            <img src="../assets/Star 1.png" class="w-[1.5em] h-[1.4em]" />
-            <img src="../assets/Star 1.png" class="w-[1.5em] h-[1.4em]" />
-            <img src="../assets/Star 1.png" class="w-[1.5em] h-[1.4em]" />
+            <img :src="dish.starimgyelow" class="w-[1.5em] h-[1.4em]" />
+            <img :src="dish.starimgyelow" class="w-[1.5em] h-[1.4em]" />
+            <img :src="dish.starimgyelow" class="w-[1.5em] h-[1.4em]" />
+            <img :src="dish.starimgyelow" class="w-[1.5em] h-[1.4em]" />
+            <img :src="dish.starimgyelow" class="w-[1.5em] h-[1.4em]" />
           </p>
           <button
             class="menu-btn w-[150px] md:w[140px] h-[30px] text-foundation hover:bg-transparent hover:text-menuBtnColor"
@@ -132,41 +132,41 @@
             Order Now
           </button>
         </div>
-      </div>
+      </div> -->
 
       <!-- 4 -->
-      <div
+      <!-- <div
         class="hover:border hover:border-menuBtnColor hover:cursor-pointer hover:rounded-2xl p-1 pb-5 hover:shadow-lg hover:shadow-menuBtnColor"
-      >
-        <!-- IMG -->
-        <div class="flex justify-center">
+      > -->
+      <!-- IMG -->
+      <!-- <div class="flex justify-center">
           <img
             src="../assets/Rectangle 8.png"
             class="w-[15em] h-[13em] flex justify-center items-center"
           />
-        </div>
+        </div> -->
 
-        <!-- TEXT -->
-        <div class="text-textColor flex flex-col gap-4 pt-5">
+      <!-- TEXT -->
+      <!-- <div class="text-textColor flex flex-col gap-4 pt-5">
           <h2 class="text-left">Chickpea Curry</h2>
           <p class="desc-p">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ut
             imperdiet lectus.
           </p>
           <p class="flex gap-1">
-            <img src="../assets/Star 1.png" class="w-[1.5em] h-[1.4em]" />
-            <img src="../assets/Star 1.png" class="w-[1.5em] h-[1.4em]" />
-            <img src="../assets/Star 1.png" class="w-[1.5em] h-[1.4em]" />
-            <img src="../assets/Star 1.png" class="w-[1.5em] h-[1.4em]" />
-            <img src="../assets/Star 1.png" class="w-[1.5em] h-[1.4em]" />
+            <img :src="dish.starimgyelow" class="w-[1.5em] h-[1.4em]" />
+            <img :src="dish.starimgyelow" class="w-[1.5em] h-[1.4em]" />
+            <img :src="dish.starimgyelow" class="w-[1.5em] h-[1.4em]" />
+            <img :src="dish.starimgyelow" class="w-[1.5em] h-[1.4em]" />
+            <img :src="dish.starimgyelow" class="w-[1.5em] h-[1.4em]" />
           </p>
           <button
             class="menu-btn w-[150px] md:w[140px] h-[30px] text-foundation hover:bg-transparent hover:text-menuBtnColor"
           >
             Order Now
           </button>
-        </div>
-      </div>
+        </div> -->
+      <!-- </div> -->
     </div>
 
     <div class="mt-10 menu-bg">
@@ -176,13 +176,13 @@
 </template>
 
 <script>
-// import menuJson from "../../public/menu.json";
+import menuJson from "../json/menu.json";
 import "animate.css";
 export default {
   name: "Menu",
   data() {
     return {
-      // menu: menuJson,
+      menu: menuJson,
       imgMenu: "../assets/Rectangle 13.png",
     };
   },

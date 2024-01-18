@@ -34,7 +34,7 @@
     <div class="flex flex-col justify-center items-center gap-[8em]">
       <!-- 1 -->
       <div
-        class="flex justify-center lg:items-start lg:gap-[4em] lg:flex-row flex-col items-center"
+        class="flex justify-center lg:items-start lg:gap-[6em] lg:flex-row flex-col items-center"
       >
         <div class="text-textColor flex flex-col gap-[1em]">
           <h1 class="font-header text-4xl font-semibold">Fine Dining</h1>
@@ -43,12 +43,14 @@
             Fine Sushi Tower For 2+<br />
             Dessert
           </p>
+          <p class="text-headerText font-header text-4xl font-semibold">$500</p>
         </div>
 
         <div
           class="lg:w-[60%] w-[90%] flex items-end gap-2 lg:flex-row flex-col"
         >
-          <p class="text-headerText font-header text-4xl font-semibold">$500</p>
+          <!-- <div class="inner-shadow"></div> -->
+
           <img
             src="../assets/Rectangle 17.png"
             class="w-[full] h-[full] gradient"
@@ -58,7 +60,7 @@
 
       <!-- 2 -->
       <div
-        class="flex justify-center lg:items-start lg:gap-[4em] lg:flex-row-reverse flex-col items-center"
+        class="flex justify-center lg:items-start lg:gap-[6em] lg:flex-row-reverse flex-col items-center"
       >
         <div class="text-textColor flex flex-col gap-[1em]">
           <h1 class="font-header text-4xl font-semibold">Gold Dining</h1>
@@ -67,14 +69,16 @@
             Secret Menu Sushi For 2+<br />
             Dessert
           </p>
+          <p
+            class="text-headerText font-header text-4xl font-semibold lg:text-right"
+          >
+            $1000
+          </p>
         </div>
 
         <div
           class="lg:w-[60%] w-[90%] flex items-end gap-2 lg:flex-row-reverse flex-col"
         >
-          <p class="text-headerText font-header text-4xl font-semibold">
-            $1000
-          </p>
           <img
             src="../assets/Rectangle 19.png"
             class="w-[full] h-[full] gradient"
@@ -84,7 +88,7 @@
 
       <!-- 3 -->
       <div
-        class="flex justify-center lg:items-start lg:gap-[4em] lg:flex-row flex-col items-center"
+        class="flex justify-center lg:items-start lg:gap-[6em] lg:flex-row flex-col items-center"
       >
         <div class="text-textColor flex flex-col gap-[1em]">
           <h1 class="font-header text-4xl font-semibold">Royalty Dining</h1>
@@ -93,14 +97,14 @@
             Fine Sushi Tower For 2+<br />
             Dessert
           </p>
+          <p class="text-headerText font-header text-4xl font-semibold">
+            $1500
+          </p>
         </div>
 
         <div
           class="lg:w-[60%] w-[90%] flex items-end gap-2 lg:flex-row flex-col"
         >
-          <p class="text-headerText font-header text-4xl font-semibold">
-            $1500
-          </p>
           <img
             src="../assets/Rectangle 21.png"
             class="w-[full] h-[full] gradient"
@@ -117,4 +121,19 @@ export default {
 };
 </script>
 
-<style></style>
+<style>
+.inner-shadow {
+  position: absolute;
+  top: 0;
+  left: 3em;
+  width: 500px; /* Adjust the width of the shadow as needed */
+  height: 500px;
+  background: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0.7) 0%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  z-index: -1;
+  border: 1px solid green;
+}
+</style>
