@@ -1,39 +1,39 @@
 [
   {
     "id": 1,
-    "menuimg": "/public/menuImages/Rectangle 5.png",
+    "menuimg": "/menuImages/Rectangle 5.png",
     "title": "Spinach & Mushroom Quiche",
     "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ut imperdiet lectus.",
-    "starimgyelow": "/public/menuImages/Star 1.png",
-    "starimggrey": "/public/menuImages/Star 10.png",
+    "starimgyelow": "/menuImages/Star 1.png",
+    "starimggrey": "/menuImages/Star 10.png",
     "btntext": "Order Now"
   },
 
   {
     "id": 2,
-    "menuimg": "/public/menuImages/Rectangle 6.png",
+    "menuimg": "/menuImages/Rectangle 6.png",
     "title": "Sweet Potato",
     "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ut imperdiet lectus.",
-    "starimgyelow": "/public/menuImages/Star 1.png",
-    "starimggrey": "/public/menuImages/Star 10.png",
+    "starimgyelow": "/menuImages/Star 1.png",
+    "starimggrey": "/menuImages/Star 10.png",
     "btntext": "Order Now"
   },
   {
     "id": 3,
-    "menuimg": "/public/menuImages/Rectangle 7.png",
+    "menuimg": "/menuImages/Rectangle 7.png",
     "title": "Spaghetti",
     "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ut imperdiet lectus.",
-    "starimgyelow": "/public/menuImages/Star 1.png",
-    "starimggrey": "/public/menuImages/Star 10.png",
+    "starimgyelow": "/menuImages/Star 1.png",
+    "starimggrey": "/menuImages/Star 10.png",
     "btntext": "Order Now"
   },
   {
     "id": 4,
-    "menuimg": "/public/menuImages/Rectangle 8.png",
+    "menuimg": "/menuImages/Rectangle 8.png",
     "title": "Chickpea Curry",
     "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ut imperdiet lectus.",
-    "starimgyelow": "/public/menuImages/Star 1.png",
-    "starimggrey": "/public/menuImages/Star 10.png",
+    "starimgyelow": "/menuImages/Star 1.png",
+    "starimggrey": "/menuImages/Star 10.png",
     "btntext": "Order Now"
   }
 ]
