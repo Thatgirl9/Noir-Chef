@@ -1,6 +1,6 @@
 # Noir-Chef 👩‍🍳
 
-Noir-Chef 👩‍🍳 is the landing page of a restaurant that specialises in  *Homestyle Sushi* and *Dining Events*. It serves as a Menu for the customers. 
+Noir-Chef 👩‍🍳 is the landing page of a restaurant that specialises in  *Homestyle Sushi* and *Dining Events*. It serves as a Menu for the customers. [Live Demo](https://noir-chef.netlify.app/)
 
 ## Technologies used? and Why?
 
@@ -17,6 +17,8 @@ that I was referencing in my *menu.json* file and corrected the path in my *menu
 
 # How to Install and Run Noir-Chef 👩‍🍳
 
+## Prerequisites- Node.js installed and Git installed.
+
 - Fork this Repository
   ![Screenshot (155)](https://github.com/Thatgirl9/Noir-Chef/assets/108234015/0982b739-6f8c-4866-8fb3-0577e2230a05)
 
@@ -32,9 +34,20 @@ that I was referencing in my *menu.json* file and corrected the path in my *menu
 
 - After installing the NPM packages from the step above.
 
-- Create a branch, by running the command *git branch -M branchname* in your terminal
+- Create a branch, by running the command *git branch -M branchname* in your terminal, this creates a new branch and checkout.
 
 - Make your changes
 
-- After making your changes. Run the following commanda
+- After making your changes. Run the following commands. *git add .* - to add all changed files, *git commit -m "commit message"* - write a short description stating what you did between the quotes, *git push -u origin branchname*, this pushes your changes to the main branch and prompts a pull request to compare both branches.
+
+- Create a Pull Request.
+
+- Wait for the pull request to be merged.
+
+
+# Credits.
+
+- [Vite](https://vitejs.dev/guide/)
+- [TailwindCss](https://tailwindcss.com/docs/installation)
+- [Animate.css](https://animate.style/)
   
