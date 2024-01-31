@@ -1,6 +1,6 @@
 # Noir-Chef 👩‍🍳
 
-Noir-Chef 👩‍🍳 is the landing page of a restaurant that specialises in  *Homestyle Sushi* and *Dining Events*. It serves as a Menu for the customers. [Live Demo](https://noir-chef.netlify.app/)
+Noir-Chef 👩‍🍳 is the landing page of a restaurant that specializes in  *Homestyle Sushi* and *Dining Events*. It serves as a Menu for the customers. [Live Demo](https://noir-chef.netlify.app/)
 
 ## Technologies used? and Why?
 
